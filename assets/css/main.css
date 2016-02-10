@@ -2377,9 +2377,9 @@
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
-		background: #2b252c;
-		color: #fff;
+		padding: 1em 0 1em 0;
+/*		background: #2b252c; 
+		color: #fff; */
 	}
 
 		#footer .icon.circled {

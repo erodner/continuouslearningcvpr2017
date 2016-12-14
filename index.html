@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>DeepDriving: Learning Representations for Intelligent Vehicles</title>
+		<title>Continuous and Open-Set Learning Workshop @ CVPR 2017</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -22,10 +22,10 @@
 					<!-- Inner -->
 						<div class="inner">
 							<header>
-                                <h1><a href="index.html" id="logo">DeepDriving<br>Learning Representations<br> for Intelligent Vehicles</a></h1>
+                                <h1><a href="index.html" id="logo">Continuous and<br>Open-Set Learning<br> Workshop @ CVPR 2017</a></h1>
 								<hr />
-                                <p>Workshop at the IEEE Symposium on Intelligent Vehicles 2016<br>
-                                19th of June, 2016
+                                <p>Workshop at the Computer Vision and Pattern Recognition Conference<br>
+                                July, 2017
                                 </p>
 							</header>
 							<footer>
@@ -37,12 +37,12 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li><a href="#cfp">Call for Abstracts</a></li>
-                                <li><a href="#dates">Important Dates</a></li>
+								<li><a href="#cfp">Call for Participation</a></li>
+                <!--                                <li><a href="#dates">Important Dates</a></li>-->
 								<li><a href="#organizers">Organizers</a></li>
-								<li><a href="#papers">Accepted Papers</a></li>
-								<li><a href="#program">Program</a></li>
-								<li><a href="http://www.iv2016.org" target="new">IV16 Conference</a></li>
+                <!--								<li><a href="#papers">Accepted Papers</a></li> -->
+                <!-- <li><a href="#program">Program</a></li> -->
+								<li><a href="http://cvpr2017.thecvf.com" target="new">CVPR 2017</a></li>
 							</ul>
 						</nav>
 
@@ -54,44 +54,27 @@
 				<div class="wrapper style2" id="cfp">
 					<article class="container special">
 					<header>
-                        <h2><a href="#">Call for Abstracts and Participation</a></h2>
+                        <h2><a href="#">Call for Participation</a></h2>
 				    </header>
                     <p>
-                    Vision is a rich and un-intrusive sensor modality that can be captured by cheap and flexible sensors. 
-                    However, its strengths are also its downside as it is challenging to extract 
-                    what is relevant from the high dimensional signal. 
-                    Recently computer vision has experienced what can only be referred to as a revolution. 
-                    The second coming of neural networks, known as deep learning, has lead to a significant 
-                    increase in performance in tasks across the field. 
-                    It is now possible to learn 
-                    image representations directly from data rather than relying on ad-hoc handcrafted features. 
+                    Recent breakthroughs in our community have relied on the availability of large representative datasets for training. However, the implicit assumption imposed in the majority of our today’s techniques is a static closed world, i.e., non-varying distributions for a fixed set of categories and tasks. Intuitively, these assumptions rarely hold in many application areas such as concept detection in biomedical image analysis, explorative data-driven science, scene parsing for autonomous driving, or household robotics. Instead, the set of semantic concepts and relevant tasks is dynamically changing - even on a daily basis. The assumption of a closed and static world is therefore one of the major obstacles when building intelligent systems that learn continuously, adaptively, and actively.
                     </p>
 
                     <p>
-                    The aim of this workshop is to bring together researchers to discuss both theoretical and practical issues related to the 
-                    application of deep vision techniques for intelligent vehicles. 
-                    We want to demonstrate what computer vision currently is capable of and identify important directions of future work. 
-                    <strong>The workshop will be centered around a set of invited talks from prominent researchers together with a poster session of submitted extended abstracts 
-                        as well as a tutorial in the afternoon.</strong> The tutorial will focus on the <a href="http://caffe.berkeleyvision.org">software library caffe</a>, 
-                    one of the most popular convolutional neural network toolboxes for vision tasks.
-                    </p>
-
-                    <p>
-                    We invite the submissions of extended abstracts for poster contributions to the workshop. Topics of interest are:
+                    In general, this workshop tries to bridge one of the gaps between computer vision research and AI goals by focusing on different aspects of continuous and open-set learning. In consequence, the following topics will be central to the workshop:
                     <ul style="list-style-type:disc;margin-left:15%">
-                        <li>Deep learning for reinforcement learning</li>
-                        <li>Detection and segmentation networks</li>
-                        <li>Uncertainty propagation in deep neural networks</li>
-                        <li>Efficient inference with deep neural networks</li>
-                        <li>Deep neural networks for perception systems in intelligent vehicles</li>
-						<li>Datasets for autonomous driving</li>
-                    </ul>
-                    The idea of the poster session is to support discussions between participants, not to provide
-                    "yet another publication venue". 
+                      <li>Dealing with partially unknown, open, or dynamically increasing label spaces (probabilistic models, possibility for rejection, novelty detection, etc.)</li>
+                      <li>Continuous, online, and incremental learning (at level of instances, classes, common-sense knowledge, and representations)</li>
+                      <li>Active acquisition and annotation of new data with humans in the loop (curriculum learning, active learning, etc.)</li>
+                      <li>Transfer learning and domain adaptation in continuous and open-set learning scenarios</li>
+                      <li>Active data discovery in explorative data science and large-scale microscopy data</li>
+                      <li>Benchmarking success in continuous and open-set learning scenarios</li>
+                     </ul>
                     </p>
                     </article>
 				</div>
 
+            <!--
                 <div class="wrapper style2" id="dates">
 					<article class="container special">
 					<header>
@@ -120,9 +103,9 @@
                         <li>6. All abstracts will be reviewed by the organizers.</li>
                     </ul>
                     </p>
-
                     </article>
 				</div>
+            -->
 
 			<!-- Main -->
 				<div class="wrapper style2" id="organizers">
@@ -131,42 +114,49 @@
 							<h2><a href="#">Organizers</a></h2>
 						</header>
                         <ul style="margin-left:15%;">
-                            <li style="margin:15px 0;">
-                            <a href="http://www.eecs.berkeley.edu/~trevor/" target="new">
-                            <img src="berkeleylogo.png" style="max-width:10%;vertical-align:middle;margin-right:5%;" />
-                            Trevor Darrell (EECS UC Berkeley, United States)
-                            </a> 
-                            </li>
-                            <li style="margin:15px 0;">
-                            <a href="http://www.carlhenrik.com" target="new">
-                            Carl Henrik Ek (University of Bristol, United Kingdom)
-                            <img src="bristollogo.png" style="max-width:20%;vertical-align:middle;margin-left:5%;" />
-                            </a>
-                            </li>
                             <li>
                             <a href="http://www.inf-cv.uni-jena.de/rodner" target="new">
                             <img src="jenalogo.png" style="max-width:10%;vertical-align:middle;margin-right:5%;" />
                             Erik Rodner (Computer Vision Group, University of Jena, Germany)
                             </a>
-							</li>
-							<li style="margin:15px 0;">
-                            <a href="http://www.josemalvarez.net" target="new">Jose M. Alvarez</a> (Smart Vision Systems, NICTA, Australia)
-                            <img src="nictalogo.png" style="max-width:20%;vertical-align:middle;margin-left:8%;" />
-                            </li>
-							<li>
-                            <a href="http://www.nicta.com.au" target="new">
-                            <img src="nictalogo.png" style="max-width:10%;vertical-align:middle;margin-right:5%;" />
-                            Lars Petersson (Smart Vision Systems, NICTA, Australia)
+							              </li>
+                        </ul>
+                        <ul style="margin-left:15%;">
+                            <li>
+                            <a href="http://www.zeiss.de" target="new">
+                            <img src="zeisslogo.png" style="max-width:10%;vertical-align:middle;margin-right:5%;" />
+                            Alexander Freytag (Zeiss Corporate Research, Germany)
                             </a>
-                            </li>
-							<li style="margin:5px 0;">
-                              <div align="left"><a href="http://www.uwe-franke.de/" target="new">Uwe Franke</a> (Daimler AG, Germany) 
-							  <img src="daimlerlogo.png" style="max-width:15%;vertical-align:middle;margin-left:20%;" /> </div>
-							</li>						
+							              </li>
+                        </ul>
+                        <ul style="margin-left:15%;">
+                            <li>
+                            <a href="http://www.pub.ist.ac.at/~chl/" target="new">
+                            <img src="istlogo.png" style="max-width:10%;vertical-align:middle;margin-right:5%;" />
+                            Christoph Lampert (IST Austria)
+                            </a>
+							              </li>
+                        </ul>
+                        <ul style="margin-left:15%;">
+                            <li>
+                            <a href="http://www.vast.uccs.edu/~tboult/index.html" target="new">
+                            <img src="coloradologo.png" style="max-width:10%;vertical-align:middle;margin-right:5%;" />
+                            Terrance E. Boult (University of Colorado, Colorado Springs, USA)
+                            </a>
+							              </li>
+                        </ul>
+                        <ul style="margin-left:15%;">
+                            <li>
+                            <a href="http://www.inf-cv.uni-jena.de/denzler" target="new">
+                            <img src="jenalogo.png" style="max-width:10%;vertical-align:middle;margin-right:5%;" />
+                            Joachim Denzler (Computer Vision Group, University of Jena, Germany)
+                            </a>
+							              </li>
                         </ul>
 					</article>
 				</div>
 
+<!--
                 <div class="wrapper style2" id="papers">
 					<article class="container special">
 						<header>
@@ -190,11 +180,12 @@
 					</article>
 
 				</div>
-
+-->
 
 
 
 			<!-- Main -->
+<!--
 				<div class="wrapper style2" id="program">
 					<article class="container special">
 						<header>
@@ -282,7 +273,7 @@
 					</article>
 
 				</div>
-
+-->
 
 			<!-- Footer -->
 				<div id="footer">
